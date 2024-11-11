@@ -26,6 +26,7 @@ SECRET_KEY = 'django-insecure-j*92ob-@egbl)rqltm*s#x)y!cy@j)$d67-k#fd+jbdyfri9_3
 DEBUG = False
 
 ALLOWED_HOSTS = ['8000-sarahcemm-djangoblog-jtp8lb1fzdt.ws.codeinstitute-ide.net','.herokuapp.com']
+CSRF_TRUSTED_ORIGINS = ['https://*.codeinstitute-ide.net', 'https://*.herokuapp.com']
 
 
 # Application definition
